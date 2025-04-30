@@ -1,0 +1,17 @@
+1. SPAN TAG KO width height nhi de skte hai . for that do <span className="inline-block">content here</span>
+
+2. {index==1 && <span className='w-1 h-1 inline-block bg-green-300 rounded-full'></span> }  in this if index ==1 than only this span will come otherwise nothing even null will also not come 
+
+<!-- 
+3.  {["Home",'Work',"Contact","","News"].map((ele,index)=><a className='font-regular text-sm flex items-center gap-1'>
+    {index==1 && <span style={{boxShadow:"0 0 0.45em #00FF19"}} className='w-1 h-1 inline-block bg-green-300 rounded-full'></span> }   {ele.length==0  ? <span className='w-[3px] h-8 bg-zinc-700'></span> : ele} 
+    </a>)} -->
+
+4. <div className="nleft"></div>  se  ye sare content left side me chale jate hai and main div ko space between kr do and ab koi v component add kroge to right me aa jayega
+
+5. For handling smoothness we use Locomotive-beta js
+
+6. Animamtion of Work Animamtion based on scroll-how much scrolled - Framer Motion
+
+7. pointer-events-none class use when lets say a div is covering all buttons clickable items since it  cover from front we can not click but using thiss class this can be clicked even a front div i.e gate is there 
+
